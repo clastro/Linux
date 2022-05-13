@@ -10,3 +10,7 @@ df -h
 sftp loginID@211.211.211.211 ( IP ADRESS)
 put File.exe (FileName)
 ```
+#### 복수 파일 전송
+```
+mput Filename Filename2 Filename3
+```
