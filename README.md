@@ -3,3 +3,10 @@
 ```
 df -h
 ```
+
+### SFTP Windows -> Linux 전송
+
+```
+sftp loginID@211.211.211.211 ( IP ADRESS)
+put File.exe (FileName)
+```
