@@ -11,3 +11,9 @@ sftp loginID@211.211.211.211 ( IP ADRESS)
 put File.exe (FileName)
 mput *.exe # 복수 파일 전송
 ```
+
+### File 찾기
+
+```
+find -name '.exe'
+```
