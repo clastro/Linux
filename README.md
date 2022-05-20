@@ -17,3 +17,11 @@ mput *.exe # 복수 파일 전송
 ```
 find -name '.exe'
 ```
+
+### LS 옵션
+
+```
+ls # 파일명만
+ll # 파일명 + user 정보 + 권한
+ls | wc -l # 파일 개수
+```
