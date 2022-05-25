@@ -1,0 +1,2 @@
+apt-get install openssh-client #scp를 사용하기 위해서 scp는 Linux에서 파일 및 폴더를 전송해 주는 패키지
+apt-get update #Update를 시켜줘야 경로 찾기가 됨
