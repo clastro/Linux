@@ -12,6 +12,13 @@ put File.exe (FileName)
 mput *.exe # 복수 파일 전송
 ```
 
+### SCP Linux -> Linux 전송
+
+```
+scp -r serverid@111.222.222.111:/home/working/etc/ ./ #현재 폴더를 원격 경로/etc/로 모두 이동
+scp * serverid@111.222.111.222:/home/ #현재 경로의 모든 파일을 원격 경로로 이동 (너무 많은 request로 reject 당할 수도 있음)
+```
+
 ### File 찾기
 
 ```
