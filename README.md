@@ -41,5 +41,6 @@ ls | wc -l # 파일 개수
 ### Process 죽이기
 
 ```
-kill -9 PID
+kill -9 PID (강제 종료)
+kill -INT PID (권장)
 ```
