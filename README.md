@@ -37,3 +37,9 @@ ls # 파일명만
 ll # 파일명 + user 정보 + 권한
 ls | wc -l # 파일 개수
 ```
+
+### Process 죽이기
+
+```
+kill -9 PID
+```
