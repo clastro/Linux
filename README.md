@@ -36,6 +36,8 @@ find -name '.exe'
 ls # 파일명만
 ll # 파일명 + user 정보 + 권한
 ls | wc -l # 파일 개수
+ls -lt # 내림 차순
+ls -ltr # 오름 차순
 ```
 
 ### Process 죽이기
