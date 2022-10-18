@@ -50,5 +50,5 @@ kill -INT PID (권장)
 ### Error msg 확인하기
 
 ```
-dmesg|grep sd
+dmesg|grep sd # sd 문자열을 포함하는 
 ```
