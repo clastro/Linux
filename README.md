@@ -46,3 +46,9 @@ ls -ltr # 오름 차순
 kill -9 PID (강제 종료)
 kill -INT PID (권장)
 ```
+
+### Error msg 확인하기
+
+```
+dmesg|grep sd
+```
