@@ -4,9 +4,10 @@
 df -h
 ```
 
-### 하위 폴더 사용량 확인하기
+###  폴더 사용량 확인하기
 ```
-du -sh *
+du -sh * #하위 폴더 포함
+du --max-depth=1 # depth가 1인 현재 폴더만 
 ```
 
 ### SFTP Windows -> Linux 전송
