@@ -31,6 +31,12 @@ scp * serverid@111.222.111.222:/home/ #현재 경로의 모든 파일을 원격 
 find -name '.exe'
 ```
 
+### File 정렬
+
+```
+sort -k 1 -nr # -k : 첫 번째 Field 기준으로 정렬, n : 숫자로 정렬, r : 역순 정렬
+```
+
 ### LS 옵션
 
 ```
