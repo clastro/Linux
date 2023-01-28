@@ -80,3 +80,10 @@ kill -INT PID (권장)
 ```
 dmesg|grep sd # sd 문자열을 포함하는 
 ```
+
+### grep 활용하기
+
+```
+grep '22:35:00' filename.log #filename.log 특정 시간 로그를 보고 싶을 때
+cat filename.log | grep '22:35:00'
+```
