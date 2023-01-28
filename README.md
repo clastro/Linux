@@ -8,6 +8,7 @@ apt # 패키지 매니저
 nano # 텍스트 에디터
 sudo # 관리자 권한 실행
 ls, cat, head, tail #파일 목록/내용 조회 
+history #명령어 내역 조회 # !16 16번째 history 실행
 ```
 
 ### 용량 확인하기
