@@ -90,3 +90,10 @@ dmesg|grep sd # sd 문자열을 포함하는
 grep '22:35:00' filename.log #filename.log 특정 시간 로그를 보고 싶을 때
 cat filename.log | grep '22:35:00'
 ```
+
+### 환경변수
+
+```
+echo $PATH #파일 실행할 때 경로없이 실행하려면 $PATH에 경로 추가해야 
+echo $SHELL
+```
