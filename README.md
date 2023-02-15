@@ -102,5 +102,6 @@ echo $SHELL
 
 ```
 ps > result #ps에 출력될 내용을 result에 저장
+ps >> result # result라는 파일이 없으면 만들고 이미 내용이 있으면 추가로 저장
 ls /aassss 2> result #ls에서 출력되는 error msg를 result에 저장
 ```
