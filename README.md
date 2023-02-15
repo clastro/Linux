@@ -97,3 +97,10 @@ cat filename.log | grep '22:35:00'
 echo $PATH #파일 실행할 때 경로없이 실행하려면 $PATH에 경로 추가해야 
 echo $SHELL
 ```
+
+### 출력 리디렉션
+
+```
+ps > result #ps에 출력될 내용을 result에 저장
+ls /aassss 2> result #ls에서 출력되는 error msg를 result에 저장
+```
