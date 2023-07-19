@@ -111,3 +111,10 @@ ls /aassss 2> result #ls에서 출력되는 error msg를 result에 저장
 ```
 cat > result << EOF # EOF라는 입력이 나올 때 까지 파일 내용 입력
 ```
+
+### Background 에서 명령 실행
+
+```
+nohup python np.py > /dev/null 2>&1 & #출력을 무시하면서 np.py라는 파일을 백그라운드에서 실행행
+
+```
