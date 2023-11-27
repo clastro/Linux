@@ -1,0 +1,5 @@
+# 랜덤으로 100개의 파일 선택
+shuf -n 100 -e * | while read -r file; do
+    # 선택한 파일을 다른 디렉터리로 복사
+    cp "$file" /path/to/destination/
+done
