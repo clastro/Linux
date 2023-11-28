@@ -3,3 +3,8 @@ shuf -n 100 -e * | while read -r file; do
     # 선택한 파일을 다른 디렉터리로 복사
     cp "$file" /path/to/destination/
 done
+
+# 하위 폴더 포함 파일을 랜덤하게 10개 선택해서 목적 폴더에 복사
+
+destination_folder="/code/xml"
+find . -type f | shuf -n 10 | xargs -I{} cp {} "$destination_folder"
