@@ -1,0 +1,5 @@
+# Searching file name from csv file's columns
+
+while IFS=, read -r id _; do
+    grep -rl "$id" * >> similar_files.txt
+done < a.csv
