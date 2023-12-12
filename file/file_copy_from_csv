@@ -1,0 +1,12 @@
+#!/bin/bash
+
+csv_dir="/smc_work/home/"
+output_dir="/smc_work/home/2020/"
+
+for csv_file in "$csv_dir"/*.csv; do
+    python3 generate_pattern.py "$csv_file" "$output_dir" | while IFS='|' read -r patient_id study_date; do
+        if [ -n "$patient_id" ] && [ -n "$study_date" ]; then
+            find . -name "*$patient_id*" -name "*$study_date*" -name '*.xml' -exec cp -rf {} "$output_dir" \;
+        fi
+    done
+done
