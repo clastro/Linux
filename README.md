@@ -128,7 +128,11 @@ wget -r -N -c -np https://physionet.org/files/sleep-edfx/1.0.0/
 wget: 웹에서 파일을 다운로드하는 명령어.
 
 -r (또는 --recursive): 재귀적으로 다운로드. 즉, 웹 사이트의 링크를 따라가며 하위 페이지와 파일들을 모두 다운로드.
+
 -N (또는 --timestamping): 서버의 파일 수정 시간을 확인하고, 로컬 파일이 서버의 파일보다 오래된 경우에만 다운로드를 수행.
+
 -c (또는 --continue): 다운로드가 중단된 파일을 이어서 다운로드.
+
 -np (또는 --no-parent): 상위 디렉터리로 이동하지 않고 현재 디렉터리와 그 하위 디렉터리만 다운로드.
+
 다운로드 경로 : https://physionet.org/files/sleep-edfx/1.0.0/
