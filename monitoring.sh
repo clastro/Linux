@@ -1,4 +1,4 @@
-# look the gpu status per 1 second
+# Check the GPU status every second
 
 watch -n 1 nvidia-smi
 
